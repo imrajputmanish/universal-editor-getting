@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "http://author-p52710-e1559444.adobeaemcloud.com/bin/franklin.delivery/imrajputmanish/universal-editor-getting/main1"
+    url: "http://author-p52710-e1559444.adobeaemcloud.com/bin/franklin.delivery/imrajputmanish/universal-editor-getting/main"
     type: "markup"
     suffix: ".html"
