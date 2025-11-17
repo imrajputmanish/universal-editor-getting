@@ -138,7 +138,7 @@
         "valueType": "number",
         "name": "columns",
         "value": "",
-               "label": "Columns"
+        "label": "Columns"
       },
       {
         "component": "text",
@@ -185,8 +185,6 @@
       }
     ]
   },
-
-  <!-- NEW QUOTE MODEL  -->
   {
     "id": "quote",
     "fields": [
@@ -206,5 +204,4 @@
       }
     ]
   }
-
 ]
