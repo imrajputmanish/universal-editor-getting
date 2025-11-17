@@ -15,8 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "quote"          <-- NEW block allowed here
+      "fragment"
     ]
   },
   {
@@ -39,27 +38,5 @@
       "button",
       "title"
     ]
-  },
-
-  <!--  NEW QUOTE MODEL   -->
-  {
-    "id": "quote",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "quote",
-        "value": "",
-        "label": "Quote",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "author",
-        "label": "Author",
-        "value": ""
-      }
-    ]
   }
-
 ]
