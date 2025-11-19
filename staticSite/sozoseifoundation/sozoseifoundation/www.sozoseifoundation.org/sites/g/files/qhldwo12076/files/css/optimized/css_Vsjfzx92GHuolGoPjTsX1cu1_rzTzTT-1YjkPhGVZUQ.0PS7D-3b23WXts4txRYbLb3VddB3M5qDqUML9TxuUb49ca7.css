@@ -1,0 +1,217 @@
+header {
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 1600px) {
+  header {
+    padding: 0;
+  }
+}
+
+header nav.navbar-dark:not(.navigationList) {
+  padding-left: 0;
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  header nav.navbar-dark:not(.navigationList) {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  header nav.navbar-dark:not(.navigationList) {
+    width: 24%;
+  }
+}
+
+header nav.navbar-dark:not(.navigationList) .block-system-branding-block {
+  padding: 5% 7% 3% 1.5%;
+}
+
+@media screen and (min-width: 1600px) {
+  header nav.navbar-dark:not(.navigationList) .block-system-branding-block {
+    padding-left: 11%;
+  }
+}
+
+header .site-logo {
+  display: block;
+  max-width: 314px;
+}
+
+a.btn.btn-theme {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px #71a2aa;
+  border-radius: 0;
+  font-size: 15px !important;
+  font-family: 'Montserrat';
+  padding: 12px 48px;
+  color: #71a2aa;
+  transition: .3s ease;
+  text-decoration: none;
+}
+
+a.btn.btn-theme:hover {
+  background: #71a2aa;
+  color: #ffffff;
+}
+
+a.btn.btn-theme:focus {
+  box-shadow: 0 0 0 0.2rem rgba(113, 162, 170, 0.25);
+}
+
+table thead {
+  background: #71a2a9;
+  color: #fff;
+}
+
+table thead a {
+  text-decoration: none;
+  color: #fff;
+}
+
+table thead a:hover {
+  color: #fff;
+}
+
+table thead tr th {
+  border-bottom: none !important;
+  font-weight: normal;
+}
+
+table thead tr th:not(:last-child) {
+  border-right: 1px solid #FFF !important;
+}
+
+table tbody {
+  background: #fff;
+  font-size: 10pt;
+}
+
+table th, table td {
+  border: 1px solid #B9B9B9 !important;
+}
+
+table p {
+  margin: 0;
+  padding: 0;
+}
+
+.node-preview-container {
+  padding-top: 110px;
+  text-align: center;
+}
+
+a {
+  color: #71a2aa;
+}
+
+a:hover {
+  color: #446b71;
+  text-decoration: none;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
+  font-size: inherit;
+}
+
+.path-how-apply-our-grants #block-pagetitle h1 {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .path-how-apply-our-grants #block-pagetitle h1 {
+    font-size: 46px;
+  }
+}
+
+.page-node-type-page.page-node-91 .wrapper .inner-content p, .page-node-type-page.page-node-91 .wrapper .inner-content p a, .page-node-type-page.page-node-91 .wrapper .inner-content div > a, .page-node-type-page.page-node-91 .wrapper .inner-content div {
+  font-size: 14px;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .page-node-type-page.page-node-91 .wrapper .inner-content p, .page-node-type-page.page-node-91 .wrapper .inner-content p a, .page-node-type-page.page-node-91 .wrapper .inner-content div > a, .page-node-type-page.page-node-91 .wrapper .inner-content div {
+    font-size: 18px;
+  }
+}
+
+.page-node-type-page.page-node-91 .wrapper .inner-content p a, .page-node-type-page.page-node-91 .wrapper .inner-content div a {
+  color: #71a2aa;
+}
+
+.page-node-type-page.page-node-91 .wrapper .inner-content .btn.btn-theme {
+  color: #71a2a9;
+}
+
+.page-node-type-page.page-node-91 .wrapper .inner-content .btn.btn-theme:hover {
+  color: #ffffff;
+}
+
+.page-node-type-page.page-node-91 .wrapper .inner-content .mainheading {
+  font-weight: 700;
+}
+
+.page-node-type-page.page-node-91 .wrapper .howto-apply h3, .page-node-type-page.page-node-91 .wrapper .view-header h3 {
+  color: #000000;
+  font-family: 'Sora';
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .page-node-type-page.page-node-91 .wrapper .howto-apply h3, .page-node-type-page.page-node-91 .wrapper .view-header h3 {
+    font-size: 33px;
+  }
+}
+
+.page-node-type-page.page-node-91 .wrapper .howto-apply h3 a, .page-node-type-page.page-node-91 .wrapper .view-header h3 a {
+  font-size: inherit;
+  color: inherit;
+}
+
+.path-convenings #block-pagetitle h1,
+.path-leadership-team #block-pagetitle h1 {
+  padding: 65px 0 42px 0;
+  font-weight: 700;
+  text-align: left;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000;
+  border-bottom: 1px solid #71a2aa;
+  margin-bottom: 42px;
+}
+
+@media (min-width: 768px) {
+  .path-convenings #block-pagetitle h1,
+  .path-leadership-team #block-pagetitle h1 {
+    font-size: 46px;
+  }
+}
+
+.path-contact h1.mainheading,
+.aboutOstuka h1.mainheading {
+  padding: 65px 0 42px 0;
+  font-weight: 700;
+  text-align: left;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000;
+  border-bottom: 1px solid #71a2aa;
+  margin-bottom: 42px;
+}
+
+@media (min-width: 768px) {
+  .path-contact h1.mainheading,
+  .aboutOstuka h1.mainheading {
+    font-size: 46px;
+  }
+}
+
+.path-leadership-team .pgtitle {
+  display: none;
+}
+
+/*# sourceMappingURL=global.css.map */

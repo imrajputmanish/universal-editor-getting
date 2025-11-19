@@ -1,0 +1,1279 @@
+@media (min-width: 1600px) {
+    .wrapper {
+        background-position: 0px -249px;
+    }
+
+    .path-leadership-team .wrapper {
+        background-position: 0px -163px, 50% 65%;
+        background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html),
+        url(../../../themes/site/themes/custom/otsuka_theme/assets/images/triangle1.png);
+        background-repeat: round no-repeat;
+    }
+
+    .path-leadership-team .view-header h3 {
+        padding-top: 4%;
+    }
+
+    .howto-apply .top-paragraph {
+        padding-bottom: 4%;
+    }
+
+    .path-podcasts .wrapper, .path-contact .wrapper {
+        background-position: 0 -190px;
+    }
+
+    .path-frontpage .wrapper {
+        background-position: 0px -250px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 24%;
+        width: 60%;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title {
+        padding: 88px 12%;
+    }
+
+    .call-out {
+        padding: 26% 12% 8% 10%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .AreaOfFocus-Banner img {
+        min-height: 390px;
+    }
+
+    .directorQuote {
+        padding: 0 140px;
+    }
+
+    .directorQuote p {
+        left: 409px;
+        right: 140px;
+    }
+
+    .DirectorDetails .container {
+        padding-left: 379px;
+        padding-right: 378px;
+    }
+
+    .oddDirector .directorQuote p {
+        left: 140px;
+        right: 409px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-field-image .field-content a {
+        width: 100%;
+        display: block;
+        height: 500px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body {
+        width: 48%;
+        height: 500px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text {
+        position: absolute;
+        bottom: 256px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous {
+        top: 120px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next {
+        top: 120px;
+    }
+}
+
+
+@media (max-width: 1299px) {
+    .focusArea .views-view-grid .views-col .field-content a {
+        font-size: 18.69px;
+    }
+
+    .focusArea {
+        padding: 10px 33px;
+    }
+
+    .focusArea p {
+        font-size: 18.69px;
+    }
+
+    .directorQuote {
+        width: 100%;
+    }
+
+    .DirectorDetails .container {
+        width: 100%;
+        padding-left: 97px;
+        padding-right: 97px;
+    }
+
+    .page-node-57 .wrapper {
+        background-position: 0px 324px, 0 1697px;
+        height: 1022px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 16%;
+        width: 65%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .banner .item .caption h1 {
+        font-size: 50px;
+    }
+
+    .oddDirector .directorQuote p {
+        left: 50%;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body .field-content p {
+        font-size: 32px;
+    }
+
+    .path-contact .contact-message-form.contact-form {
+        max-width: 1140px;
+    }
+
+    .page-node-57 .wrapper {
+        background-position: 0px 324px, 0 1697px;
+        height: 1022px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 6%;
+        width: 65%;
+        font-size: 16px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title {
+        padding: 8% 5%;
+    }
+}
+
+@media screen and (max-width: 1720px) {
+    .path-convenings .wrapper,
+    .path-how-apply-our-grants .wrapper {
+        background-position: 0px 265px;
+        height: 750px;
+        border-bottom: 229px solid #423f3f;
+    }
+}
+
+@media (min-width: 1024px) {
+    .diseaseDescription figure {
+        max-width: 80%;
+        margin: 1rem auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .path-contact .contact-message-form.contact-form {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .path-convenings .wrapper,
+    .path-how-apply-our-grants .wrapper {
+        background-position: 0px 179px;
+        height: 785px;
+        border-bottom: 168px solid #423f3f;
+    }
+
+    .wrapper {
+        background-repeat: no-repeat;
+    }
+
+    .page-node-57 .wrapper {
+        height: 1185px;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+
+    .past-link {
+        width: 23%;
+    }
+
+    .front-content {
+        width: 100%;
+    }
+
+    .oddDirector .directorQuote p {
+        left: 37%;
+    }
+
+    header .navbar-dark .navbar-toggler {
+        background-color: #f2eded;
+    }
+
+    #collapsibleNavbar {
+        position: absolute;
+        top: 100%;
+        z-index: 5;
+        width: 100%;
+        overflow: auto;
+        background: rgb(255, 255, 255);
+        z-index: 1;
+        height: calc(100vh - 105px);
+        margin-top: 15%;
+    }
+
+    .social_icon {
+        position: absolute;
+        top: 1%;
+        right: 16%;
+    }
+
+    nav.navbar-dark {
+        width: 50%;
+    }
+
+    nav.navigationList {
+        float: left;
+        width: 41% !important;
+        margin: 3%;
+    }
+
+    .navigationList.navbar {
+        padding: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    header .navbar-dark .navbar-toggler {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+
+    .navigationList.navbar .navbar-nav {
+        background: #e8e8e8;
+    }
+
+    header .navigationList.navbar-dark .navbar-nav .nav-link {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (min-width: 768px) {
+    .path-contact .contact-message-form.contact-form {
+        max-width: 720px;
+    }
+
+    .ourMissionP {
+        margin-bottom: 0;
+    }
+
+    header .dropdown .dropdown-menu {
+        margin: 0 -2%;
+    }
+
+    header .nav-item .dropdown-item {
+        padding: 10px 2%;
+    }
+}
+
+@media (min-width: 992px) {
+    header .dropdown:hover > .dropdown-menu {
+        margin: 0;
+    }
+
+    header .nav-item .dropdown-item {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-paragraph {
+        font-size: 15px;
+    }
+
+    .navigationList ul li.nav-item {
+        padding: 0px 10%;
+        overflow: hidden;
+    }
+
+    .frontpg-content {
+        padding-top: 40%;
+    }
+
+    .front-content {
+        width: 100%;
+    }
+
+    .front-content p {
+        margin: 15px 0px;
+    }
+
+    .aboutOstuka p {
+        font-size: 14px;
+    }
+
+    .aboutOstuka ul li {
+        font-size: 14px;
+    }
+
+    header .navbar-dark .navbar-toggler {
+        right: 10%;
+        top: 16px;
+        background-color: #f2eded;
+    }
+
+    #block-frontpagecontent h2 {
+        font-size: 38px;
+    }
+
+    nav.navbar-dark img {
+        width: 100%;
+        padding-top: 3%;
+    }
+
+    .content {
+        padding-top: 30px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next, #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous {
+        top: 3px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title {
+        padding: 12% 2%;
+        width: 75%;
+        font-size: 11px;
+    }
+
+    .view-header {
+        padding-bottom: 8%;
+    }
+
+    .view-header h3 {
+        padding-top: 8%;
+    }
+
+    #block-otsuka-theme-page-title h1, h1.mainheading {
+        font-size: 32px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-field-external- {
+        right: 7%;
+        top: 44%;
+        font-size: 9px;
+    }
+
+    .path-news-and-reports .view-empty .heading-container {
+        margin-top: 30%;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-field-external- a {
+        font-size: 11px;
+    }
+
+    .path-convenings .wrapper,
+    .path-how-apply-our-grants .wrapper {
+        background-position: 0px 210px;
+        height: 804px;
+        border-bottom: 123px solid #423f3f;
+    }
+
+    .event-desc {
+        padding: 3% 6%;
+    }
+
+    /* .twitter { padding: 23% 0%; }
+    .linkedin{ padding: 20% 35%; } */
+    .twitter, .linkedin, .facebook, .youtube, .instagram {
+        padding: 0;
+        padding-right: 5%;
+    }
+
+    /* .path-convenings .linkedin, .path-podcasts .linkedin{ padding: 25% 35%; }
+    .path-convenings .twitter, .path-podcasts .twitter{ padding: 30% 0%; } */
+    .col-sm.left {
+        padding-top: 6%;
+    }
+
+    .path-contact .col-sm.left {
+        padding: 12%;
+    }
+
+    .col-sm.left {
+        order: 2;
+    }
+
+    .col-sm.right {
+        order: 1;
+    }
+
+    #collapsibleNavbar {
+        top: 30px;
+        left: -40%;
+        height: auto;
+        width: 130%;
+    }
+
+    .heading-left {
+        padding-bottom: 0%;
+        padding-left: 2%;
+        padding-top: 17%;
+    }
+
+    span.arrow {
+        margin-right: 5%;
+        margin-left: 2%;
+        margin-top: 70%;
+    }
+
+    .path-podcasts .pgtitle, .path-leadership-team .pgtitle {
+        padding: 4% 4%;
+    }
+
+    .path-podcasts .pgtitle, .path-leadership-team .pgtitle {
+        padding: 15% 4%;
+    }
+
+    .page-node-57 .wrapper {
+        height: 2045px;
+    }
+
+    #block-footerlogo {
+        width: 100%;
+    }
+
+    .prc_custom {
+        padding-top: 25px;
+        margin-left: 15px;
+    }
+
+    .container ul {
+        padding-left: 8%;
+    }
+
+    .footer-content .row {
+        padding-bottom: 15%;
+        width: 100%;
+    }
+
+    .prc_custom {
+        text-align: left;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer ul li {
+        text-align: left;
+    }
+
+    .heroBanner {
+        height: 280px !important;
+    }
+
+    .pabtm-container {
+        width: 100%;
+    }
+
+    .program-area-btm-b .pabtm-container {
+        width: 70%;
+    }
+
+    .program-area-btm-b span.arrow {
+        margin-right: -2px;
+        margin-left: 0%;
+        margin-top: 37%;
+    }
+
+    .program-area-btm-b .heading-right {
+        margin-left: 3%;
+    }
+
+    .pabtm-container {
+        padding-top: 4%;
+    }
+
+    .block-views-blockevents-block-1,
+    .block-views-blockopportunities-block-1 {
+        padding: 15% 0;
+    }
+
+    .past-link {
+        width: 44%;
+    }
+
+    .heading-left, .heading-right {
+        margin-right: 0;
+    }
+
+    .program-area-btm .heading-container hr {
+        width: 40%;
+    }
+
+    .path-convenings #block-otsuka-theme-page-title h1,
+    .path-how-apply-our-grants #block-otsuka-theme-page-title h1 {
+        padding-left: 5%;
+    }
+
+    .path-how-apply-our-grants .inner-content {
+        padding-top: 30%;
+    }
+
+    .event-title img {
+        width: 100%;
+    }
+
+    #block-views-block-events-block-1,
+    #block-views-block-opportunities-block-1 {
+        padding-top: 30%;
+    }
+
+    .block-system-branding-block {
+        padding: 4% 0%;
+    }
+
+    .page-node-56 .wrapper, .page-node-49 .wrapper {
+        background-position: 0px 1429px, -244px 1427px;
+    }
+
+    #block-views-block-events-block-1 h2,
+    #block-views-block-opportunities-block-1 h2 {
+        padding-left: 0;
+    }
+
+    #block-ourphilosophyfocusesus {
+        padding: 0;
+    }
+
+    #block-frontpagecontent {
+        padding: 11% 0 0;
+    }
+
+    .howto-apply .heading-container {
+        padding-bottom: 10%;
+    }
+
+    .views-col {
+        width: 100% !important;
+    }
+
+    .news-wrapper {
+        padding-bottom: 5%;
+    }
+
+    .js-pager__items.pager, .pager__item {
+        padding-left: 0;
+    }
+
+    .news-wrapper img {
+        float: left;
+        width: 100%;
+    }
+
+    #block-otsuka-theme-page-title h1 {
+        padding-left: 4.5%;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    body .views_slideshow_cycle_teaser_section p {
+        font-size: 10px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 30%;
+        width: 70%;
+        font-size: 10px;
+    }
+
+    .view-leadership {
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    .resource-list .resource-title, .resource-list .resource-content {
+        width: 100%;
+    }
+
+    .prc_custom .desktop-only {
+        display: none;
+    }
+
+    .prc_custom .mobile-only {
+        display: block;
+    }
+
+    .aboutOstuka h3,
+    .focusPoints h3 {
+        font-size: 20px;
+    }
+
+    header .navbar-dark:first-child {
+        min-height: unset;
+    }
+
+    .news .date {
+        padding: 5px 8px;
+        width: 60px;
+        height: 55px;
+    }
+
+    .latesNews .newsQuote p {
+        /* font-size: 14px !important; */
+        line-height: 1.3;
+    }
+
+    li.nav-item.dropdown {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-item.dropdown a.nav-link {
+        border-bottom: none !important;
+        display: block;
+    }
+
+    span.dropdownArrow {
+        left: 0;
+        text-align: center;
+        width: 30px;
+    }
+
+    .nav-item.dropdown.show .dropdownArrow {
+        transform: rotate(90deg);
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous a,
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next a {
+        background-color: transparent;
+        width: auto;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous a:hover,
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next a:hover {
+        background-color: transparent;
+    }
+
+    .focusArea h2 {
+        font-size: 33px;
+    }
+
+    .view.view-area-of-focus h2 {
+        padding: 1rem 0;
+        font-size: 33px;
+    }
+
+    .DirectorDetails .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+    }
+
+    .diseaseDescription ul {
+        padding-left: 20px;
+    }
+
+    h1.mainheading {
+        font-size: 33px;
+        padding: 1rem 0;
+    }
+
+    .path-contact .field--name-field-first-name,
+    .path-contact .field--name-field-last-name,
+    .path-contact .field--name-field-organization {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .path-contact .field--name-field-email,
+    .path-contact .field--name-field-phone {
+        width: 100%;
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    .views-view-grid.horizontal .row .AreaOfFocus-Banner.views-col:first-child figure,
+    .views-view-grid.horizontal .row .AreaOfFocus-Banner.views-col:nth-child(2) figure {
+        margin-bottom: 0px;
+    }
+
+    .AreaOfFocus-Banner figure {
+        height: 180px;
+    }
+
+    header #block-headertoprightimage {
+        display: none;
+    }
+
+    .social_icon {
+        /* position: absolute;
+        top: 100%;
+        z-index: 9999;
+        right: 22%;
+        top: .4%; */
+        position: unset;
+        display: block;
+        float: unset;
+        width: unset;
+        margin-left: 20px;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .path-leadership-team .social_icon, .path-news-and-reports .social_icon {
+        top: 7px;
+    }
+
+    header nav.navbar:first-child .ml-auto {
+        position: absolute;
+        top: 100%;
+    }
+
+    .latesNews h4 {
+        font-size: 22px;
+        text-align: center;
+        max-width: 95%;
+    }
+
+    .latesNews h5 {
+        font-size: 18px;
+    }
+
+    .latesNews h3 {
+        font-size: 26px;
+    }
+
+    .heroBanner figure {
+        height: auto;
+        width: 100%;
+    }
+
+    .topNav .ml-auto {
+        position: absolute;
+        top: 100%;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+    .nav-item.rightLogo {
+        display: none;
+    }
+
+    .heroBanner figure img {
+        object-fit: contain;
+    }
+
+    .aboutOstuka h5 {
+        font-size: 18px;
+    }
+
+    .directorQuote {
+        padding-left: 10px;
+        padding-right: 10px !important;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .directorQuote img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .directorQuote p {
+        padding: 0;
+        padding-left: 10px;
+        font-size: 16px;
+        position: static;
+        transform: translateY(0);
+        margin-top: 4%;
+    }
+
+    .oddDirector .directorQuote p {
+        margin-right: 4%;
+        margin-top: 7%;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    .diseaseDescription,
+    footer {
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h2.blkheading {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .diseaseDescription figure {
+        height: auto;
+    }
+
+    .focusPoints h4 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .latestNews h3 {
+        font-size: 18px;
+    }
+
+    .latestNews p {
+        padding: 10px 0;
+    }
+
+    .banner .owl-carousel.owl-loaded .owl-dots {
+        bottom: 15px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-slideshow-controls-bottom ul.widget_pager.widget_pager_bottom.views-slideshow-pager-bullets {
+        bottom: 10px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text {
+        bottom: 158px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_slide.views_slideshow_slide.views-row-odd .views-field.views-field-field-image {
+        width: 100%;
+        float: none;
+    }
+
+    .focusArea .views-view-grid .views-row .views-col.col-1,
+    .focusArea .views-view-grid .views-row .views-col.col-2,
+    .focusArea .views-view-grid .views-row .views-col.col-3,
+    .focusArea .views-view-grid .views-row .views-col.col-4 {
+        width: 50% !important;
+        max-width: 50% !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body .field-content p {
+        font-size: 33px;
+        word-break: break-word;
+        top: 50%;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body .field-content {
+        left: 10px !important;
+        width: 80%;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body {
+        left: 25px;
+        font-size: 33px;
+        line-height: 1.3;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-field-image .field-content a {
+        width: 100%;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_teaser_section,
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_slide.views_slideshow_slide,
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body,
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body {
+        height: 186px !important;
+        box-shadow: none !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-field-image .field-content a {
+        height: 280px !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous {
+        left: 10px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next {
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .podcast-link a.google-play-link img {
+        width: 29%;
+    }
+
+    .podcast-link a.itune-link img {
+        width: 31%;
+    }
+
+    .path-frontpage .wrapper {
+        background-position: 0px -175px;
+    }
+
+    .view-empty {
+        padding-bottom: 6%;
+    }
+
+    .page-node-57 .wrapper {
+        height: 1167px;
+    }
+
+    nav.navbar-dark {
+        float: left;
+        width: 60%;
+    }
+
+    nav.navigationList {
+        width: 40% !important;
+    }
+
+    .wwr-content {
+        float: left;
+        width: 100% !important;
+        margin-block-start: 5%;
+    }
+
+    .wwr-img {
+        float: unset !important;
+        text-align: center !important;
+    }
+
+    .footer-para {
+        padding-left: 0px;
+        line-height: 18px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #block-newsletter p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 5px
+    }
+
+    .prc_custom {
+        padding-top: 25px;
+        margin-left: 0px
+    }
+
+    .newsletter-email {
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+
+    .inner-content {
+        /* padding: 6% 12%; */
+        padding: 0px;
+    }
+
+    .footer-content {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .path-contact .contact-message-form.contact-form {
+        max-width: 540px;
+    }
+
+    nav.navbar-dark img {
+        width: 100%;
+    }
+
+    nav.navbar-dark img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .footer-left-links {
+        width: 70%;
+        /* margin: 0 -15px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    div#block-address1,
+    div#block-address2 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    div#block-address1 .col-sm-6,
+    div#block-address2 .col-sm-6,
+    div#block-footertopright .col-sm-4 {
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .prc_custom {
+        width: 100%;
+    }
+
+    nav.navbar-dark {
+        float: left;
+        width: 60%;
+    }
+
+    nav.navigationList {
+        width: 34% !important;
+        margin-top: -1%;
+    }
+
+    .footer-content p {
+        margin-bottom: 0;
+    }
+
+    footer .footer-left-links {
+        width: 100%;
+    }
+
+    footer .footer-content .row .col-sm-4:not(:last-child) a {
+        padding-top: 0px;
+    }
+
+    div#block-footertopright {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    div#block-address1,
+    div#block-address2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 8%;
+        width: 70%;
+        font-size: 10px;
+    }
+
+    .focusPoints h3 {
+        text-align: center;
+    }
+
+    .page-node-57 .wrapper {
+        height: 1220px;
+    }
+
+    .creativity p {
+        margin: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .latesNews .newsQuote p {
+        font-size: 16px !important;
+    }
+
+    .latesNews .newsDetail p {
+        font-size: 14px !important;
+    }
+
+    .latesNews h4 {
+        font-size: 20px;
+    }
+
+    .directorQuote p {
+        font-size: 16px;
+        margin-top: 7%;
+    }
+
+    .directorQuote img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_next {
+        right: 5px;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text .views_slideshow_controls_text_previous {
+        left: 5px;
+    }
+
+    .heroBanner {
+        height: 165px !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_teaser_section,
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_slide.views_slideshow_slide,
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body,
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body {
+        height: 165px !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_cycle_slide.views_slideshow_slide img,
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-field-image .field-content a {
+        height: 165px !important;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views_slideshow_controls_text {
+        bottom: 105px;
+    }
+
+    .AreaOfFocus-Banner figure {
+        height: 150px;
+    }
+
+    .news {
+        display: block;
+    }
+
+    .imageIfrequire {
+        display: block !important;
+    }
+
+    .footer-content .pt-54 {
+        padding-top: 0;
+    }
+
+    .diseaseDescription h3 {
+        font-size: 20px;
+    }
+
+    .diseaseDescription p,
+    .diseaseDescription ul li,
+    .diseaseDescription h5 {
+        font-size: 16px;
+    }
+
+    .footer-content figure {
+        margin: 10px 0;
+    }
+
+    header .navbar-dark .navbar-brand {
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header .navbar-dark .navbar-brand img {
+        max-width: 80%;
+    }
+
+    #block-views-block-home-page-slider-block-1-2 .views-field.views-field-body .field-content p {
+        font-size: 18px;
+        top: 50%;
+    }
+
+    .navbar #block-sitebranding a {
+        display: block;
+        text-align: center;
+        max-width: 98%;
+    }
+
+    .navbar #block-sitebranding {
+        width: 100%;
+    }
+
+    .navbar #block-sitebranding a img {
+        height: 60px;
+        max-width: 100%;
+    }
+
+    header.darkHeader .navbar #block-sitebranding a img {
+        height: unset;
+    }
+
+    .focusArea .views-view-grid .views-row .views-col.col-1,
+    .focusArea .views-view-grid .views-row .views-col.col-2,
+    .focusArea .views-view-grid .views-row .views-col.col-3,
+    .focusArea .views-view-grid .views-row .views-col.col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .focusArea img {
+        object-fit: contain;
+        height: 100%;
+    }
+
+    .focusArea .views-field-field-focus-images a {
+        display: block;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .page-node-56 .wrapper, .page-node-49 .wrapper {
+        background-position: 0px 1645px, -244px 1045px;
+    }
+}
+
+@media (max-width: 395px) {
+    .page-node-56 .wrapper, .page-node-49 .wrapper {
+        background-position: 0px 1767px, -245px 923px;
+    }
+
+    .views_slideshow_cycle_slide.views_slideshow_slide .views-field-title .long-title {
+        position: absolute;
+        top: 0%;
+        width: 70%;
+        font-size: 10px;
+    }
+
+    .page-node-57 .wrapper {
+        height: 1305px;
+    }
+
+    span.arrow {
+        margin-top: 74%;
+    }
+
+    .path-contact .content {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 350px) {
+    .page-node-57 .wrapper {
+        height: 1505px;
+    }
+
+    .page-node-56 .wrapper, .page-node-49 .wrapper {
+        background-position: 0px 2039px, -245px 923px;
+    }
+}
+
+@media (min-width: 1420px) {
+    .path-frontpage .footer-content .row {
+        width: 100%;
+    }
+}

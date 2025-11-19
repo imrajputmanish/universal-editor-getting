@@ -1,0 +1,223 @@
+.page-node-type-page.page-node-56 .wrapper {
+  background-position: 0px -110px, 101% 6%, 50% 65%;
+  background-image: url("https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png");
+  background-repeat: no-repeat;
+}
+
+.page-node-type-page.page-node-56 .inner-content {
+  padding: 0;
+}
+
+.page-node-type-page.page-node-56 .inner-content h1 {
+  margin-bottom: 46px;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+@media (min-width: 768px) {
+  .page-node-type-page.page-node-56 .inner-content h1 {
+    font-size: 46px;
+  }
+}
+
+.page-node-type-page.page-node-56 .aboutOstuka {
+  border-bottom: 1px solid #71a2a9;
+  padding-bottom: 40px;
+  margin-bottom: 45px;
+}
+
+.page-node-type-page.page-node-56 .content p,
+.page-node-type-page.page-node-56 .container-slider p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .page-node-type-page.page-node-56 .content p,
+  .page-node-type-page.page-node-56 .container-slider p {
+    font-size: 18px;
+  }
+}
+
+body .block-views-blockopportunities-block-3 .view-opportunities .view-header h2 {
+  display: inline-block;
+  color: #000000;
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.opportunities-teaser {
+  margin-bottom: 50px;
+}
+
+.opportunities-teaser .mainheading {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.opportunities-teaser .field--name-body {
+  margin: 30px 0;
+}
+
+.opportunities-teaser .opportunities-teaser-link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.opportunities-teaser .opportunities-teaser-link a.btn.btn-theme {
+  font-family: 'Sora';
+  font-weight: bold;
+}
+
+.opportunities-teaser .opportunities-teaser-link > a {
+  margin: 15px 15px 0 0;
+}
+
+@media (min-width: 768px) {
+  .opportunities-teaser .opportunities-teaser-link > a {
+    margin-right: 37px;
+  }
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link .field__item {
+  margin: 15px 15px 0 0;
+}
+
+@media (min-width: 768px) {
+  .opportunities-teaser .opportunities-teaser-link .field--name-field-op-link .field__item {
+    margin-right: 37px;
+  }
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link a {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px #71a2aa;
+  border-radius: 0;
+  font-size: 15px !important;
+  font-family: 'Montserrat';
+  padding: 12px 48px;
+  color: #71a2aa;
+  transition: .3s ease;
+  text-decoration: none;
+  background: #71a2aa;
+  color: #ffffff;
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link a:hover {
+  background: #71a2aa;
+  color: #ffffff;
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link a:focus {
+  box-shadow: 0 0 0 0.2rem rgba(113, 162, 170, 0.25);
+}
+
+.opportunities-teaser .opportunities-teaser-link .field--name-field-op-link a:hover {
+  background: #ffffff;
+  color: #71a2aa;
+}
+
+.past-opportunities-block-wrapper {
+  background: #C5D9DC;
+}
+
+body .block-views-blockopportunities-block-2 {
+  margin: 50px 0;
+}
+
+body .block-views-blockopportunities-block-2 h2 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+body .block-views-blockopportunities-block-2 .past-opportunities-wrapper {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  body .block-views-blockopportunities-block-2 .past-opportunities-wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  body .block-views-blockopportunities-block-2 .past-opportunities-heading {
+    width: calc(40% - 50px);
+    margin-right: 50px;
+  }
+}
+
+body .block-views-blockopportunities-block-2 .past-opportunities-heading a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14pt;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  body .block-views-blockopportunities-block-2 .past-opportunities-subheading {
+    width: 60%;
+  }
+}
+
+body .block-views-blockopportunities-block-2 .past-opportunities-link a {
+  color: #000000;
+  font-weight: bold;
+}
+
+body .block-views-blockopportunities-block-2 .js-pager__items {
+  padding: 0;
+  margin: 0 0 50px 0;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+body .block-views-blockopportunities-block-2 .js-pager__items li {
+  padding: 0;
+}
+
+body .block-views-blockopportunities-block-2 .js-pager__items a {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px #71a2aa;
+  border-radius: 0;
+  font-size: 15px !important;
+  font-family: 'Montserrat';
+  padding: 12px 48px;
+  color: #71a2aa;
+  transition: .3s ease;
+  text-decoration: none;
+}
+
+body .block-views-blockopportunities-block-2 .js-pager__items a:hover {
+  background: #71a2a9;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=view.opportunities--block_3.css.map */

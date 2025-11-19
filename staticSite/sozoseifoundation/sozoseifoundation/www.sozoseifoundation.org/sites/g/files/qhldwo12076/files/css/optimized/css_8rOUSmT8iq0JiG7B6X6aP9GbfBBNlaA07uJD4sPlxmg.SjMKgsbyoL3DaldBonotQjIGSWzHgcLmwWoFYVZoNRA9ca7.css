@@ -1,0 +1,69 @@
+body.page-node-type-program-area .wrapper {
+  background-image: url(https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png);
+  background-position: 0px -128px;
+  background-repeat: no-repeat;
+}
+
+body.page-node-type-program-area .wrapper .inner-content {
+  padding: 0 0 6%;
+}
+
+body.page-node-type-program-area .wrapper .inner-content h1 {
+  font-weight: 700;
+  line-height: 40px;
+}
+
+body.page-node-type-program-area .wrapper .inner-content .aboutOstuka p a {
+  text-decoration: none;
+}
+
+body.page-node-type-program-area .wrapper .inner-content hr {
+  border-color: #71a2aa;
+  margin: 32px 0 48px;
+}
+
+body.page-node-type-program-area .wrapper .inner-content ul li {
+  padding-bottom: 0;
+  padding-left: 2px;
+}
+
+body.page-node-type-program-area .wrapper .inner-content h4 {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  body.page-node-type-program-area .wrapper .inner-content h4 {
+    font-size: 26px;
+  }
+}
+
+body.page-node-type-program-area .wrapper .inner-content h5, body.page-node-type-program-area .wrapper .inner-content h4 {
+  color: #000;
+}
+
+body.page-node-type-program-area .wrapper .inner-content a {
+  color: #71a2aa;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  transition: all .3s;
+}
+
+body.page-node-type-program-area .wrapper .inner-content a:hover {
+  color: #446b71;
+}
+
+body.page-node-type-program-area .wrapper .inner-content p, body.page-node-type-program-area .wrapper .inner-content p a, body.page-node-type-program-area .wrapper .inner-content div > a, body.page-node-type-program-area .wrapper .inner-content ul {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  body.page-node-type-program-area .wrapper .inner-content p, body.page-node-type-program-area .wrapper .inner-content p a, body.page-node-type-program-area .wrapper .inner-content div > a, body.page-node-type-program-area .wrapper .inner-content ul {
+    font-size: 18px;
+  }
+}
+
+body.page-node-type-program-area .wrapper .inner-content p, body.page-node-type-program-area .wrapper .inner-content ul {
+  color: #000000;
+}
+
+/*# sourceMappingURL=node.program-area.css.map */

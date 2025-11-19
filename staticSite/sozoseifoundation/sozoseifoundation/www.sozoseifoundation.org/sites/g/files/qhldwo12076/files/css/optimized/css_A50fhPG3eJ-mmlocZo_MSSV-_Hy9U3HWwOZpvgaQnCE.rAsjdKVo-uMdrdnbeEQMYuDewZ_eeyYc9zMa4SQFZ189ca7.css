@@ -1,0 +1,210 @@
+.navbar.navigationList {
+  width: 65%;
+  margin: 3% 0;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar.navigationList {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar.navigationList {
+    margin: 3%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .navbar.navigationList {
+    width: 67%;
+  }
+}
+
+.navbar.navigationList #collapsibleNavbar {
+  margin-top: 12px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar.navigationList #collapsibleNavbar {
+    right: 0;
+    left: auto;
+    z-index: 2;
+    min-width: 290px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList #collapsibleNavbar {
+    margin-top: -4px;
+  }
+}
+
+.navbar.navigationList .navbar-toggler {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar.navigationList .navbar-toggler {
+    right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .navbar.navigationList ul.navbar-nav {
+    justify-content: flex-start;
+    margin-left: 5.5%;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav li.nav-item {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item {
+    padding: 0 1%;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav li.nav-item .nolink.nav-link,
+.navbar.navigationList ul.navbar-nav li.nav-item a.nav-link {
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 25px 9px;
+}
+
+@media screen and (min-width: 1600px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item .nolink.nav-link,
+  .navbar.navigationList ul.navbar-nav li.nav-item a.nav-link {
+    padding: 36px 11.5px;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav li.nav-item .nolink.nav-link.is-active,
+.navbar.navigationList ul.navbar-nav li.nav-item a.nav-link.is-active {
+  background: #7e9d9d;
+  color: #000000;
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item .nolink.nav-link.is-active + .dropdown-menu .is-active,
+  .navbar.navigationList ul.navbar-nav li.nav-item a.nav-link.is-active + .dropdown-menu .is-active {
+    color: #332719;
+  }
+
+  .navbar.navigationList ul.navbar-nav li.nav-item .nolink.nav-link.is-active + .dropdown-menu .is-active:hover,
+  .navbar.navigationList ul.navbar-nav li.nav-item a.nav-link.is-active + .dropdown-menu .is-active:hover {
+    color: #71a2aa;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav li.nav-item .dropdownArrow {
+  left: auto;
+  right: 15px;
+  top: 20px;
+  z-index: 5;
+  padding: 5px 10px;
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item .dropdownArrow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .navbar.navigationList ul.navbar-nav li.nav-item:nth-last-child(3) {
+    margin-left: 1.2%;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav .dropdown-menu {
+  min-width: 290px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+  .navbar.navigationList ul.navbar-nav .dropdown-menu {
+    display: none;
+    margin: 0;
+  }
+
+  .navbar.navigationList ul.navbar-nav .dropdown-menu.show {
+    display: block;
+  }
+}
+
+.navbar.navigationList ul.navbar-nav .dropdown-menu .dropdown-item {
+  border-bottom: 0 none;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 15px 10px 26px;
+  color: #332719;
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav .dropdown-menu .dropdown-item {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList ul.navbar-nav .dropdown-menu .dropdown-item:hover, .navbar.navigationList ul.navbar-nav .dropdown-menu .dropdown-item.is-active {
+    background-color: transparent;
+    color: #71a2aa;
+  }
+}
+
+.navbar.navigationList + .social_icon {
+  margin-left: 3%;
+}
+
+@media (max-width: 991.98px) {
+  .navbar.navigationList + .social_icon {
+    top: 18px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar.navigationList + .social_icon {
+    z-index: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar.navigationList + .social_icon {
+    width: 12%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar.navigationList + .social_icon {
+    width: 8%;
+    margin: 17px 0 0 15px;
+  }
+}
+
+/*# sourceMappingURL=menu.main.css.map */
