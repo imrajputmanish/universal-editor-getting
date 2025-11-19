@@ -1,7 +1,3 @@
-/* -------------------------------------- */
-/*        Base Quote Block Styling         */
-/* -------------------------------------- */
-
 .block.quote {
     background-color: #ccc;
     padding: 0 0 24px;
@@ -32,17 +28,12 @@
     width: 30px;
     background-color: darkgray;
 }
-
-/* -------------------------------------- */
-/*        Block Options (Backgrounds)      */
-/* -------------------------------------- */
-
 .block.quote.bg-red {
-    background-color: #ffdddd;
+    background-color: #fdd;
 }
 
 .block.quote.bg-green {
-    background-color: #ddffdd;
+    background-color: #dfd;
 }
 
 .block.quote.bg-blue {
