@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 18 Nov 2025 18:22:04 at https://www.sozoseifoundation.org +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.sozoseifoundation.org -O1 "C:\Users\EJ182LJ\Downloads\sites2\sozoseifoundation" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:24:32	Error: 	Exit requested by shell or user
+18:24:33	Warning: 	File not added due to mirror cancel: https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/files/2025-10/Sozosei_Lab Fellow Statement of Interst 2025.pdf
+18:24:33	Error: 	"Forbidden" (403) at link https://www.sozoseifoundation.org/contact (from https://www.sozoseifoundation.org/)
+18:24:33	Error: 	"Not Found" (404) at link https://www.sozoseifoundation.org/helpers/getObjectProperty.js (from assets.adobedtm.com/3f0d2e2dbd42/6921187d86e0/launch-a3c2c008da2b.min.js)
+18:24:34	Error: 	"Forbidden" (403) at link https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png (from https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/files/css/optimized/css_WCCUzL6ZZFxt1yp9u1x9FaX60POhaQAKUf3y3oSZXKo.ZIdlytHG_115s8HIiCv85_L6cy_ZPH9GMIiyqYHU_po.css?t5ws2n)
+18:24:34	Error: 	"Not Found" (404) at link https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/themes/site/themes/custom/otsuka_theme/SozoseiFoundation_Registered_Logo_black.ai (from https://www.sozoseifoundation.org/sites/g/files/qhldwo12076/themes/site/themes/custom/otsuka_theme/logo.svg)
+18:24:34	Warning: 	Link https://www.sozoseifoundation.org/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+18:24:35	Error: 	"Not Found" (404) at link https://www.sozoseifoundation.org/sites/g/files/qhldwo9251/files/2023-08/Sozo_SolutionLab_June2021_UpdatedAug2023a.pdf (from https://www.sozoseifoundation.org/grantmaking)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 31 seconds : 156 links scanned, 150 files written (8478625 bytes overall) [6670441 bytes received at 44175 bytes/sec], 2641238 bytes transferred using HTTP compression in 132 files, ratio 24%, 15.6 requests per connection
+(6 errors, 2 warnings, 0 messages)

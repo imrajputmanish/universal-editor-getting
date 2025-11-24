@@ -1,0 +1,67 @@
+.collapse-wrapper {
+  margin-top: 65px;
+}
+
+.collapse-wrapper + .collapse-wrapper {
+  margin-top: 20px;
+}
+
+.collapse-wrapper h3 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.39px;
+  color: #000000 !important;
+}
+
+.collapse-wrapper button {
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.495px;
+  text-transform: uppercase;
+  position: relative;
+  background: none;
+  border: none;
+  padding-right: 50px;
+  padding-left: 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .collapse-wrapper button {
+    margin-left: -14px;
+    line-height: 72px;
+  }
+}
+
+.collapse-wrapper button:after {
+  content: '';
+  position: absolute;
+  top: 37px;
+  right: -14px;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  width: 28px;
+  background: #71a2aa;
+}
+
+.collapse-wrapper button::before {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 9px;
+  top: 37px;
+  transform: translate(-50%, -50%);
+  height: 28px;
+  width: 5px;
+  background: #71a2aa;
+}
+
+.collapse-wrapper button.collapsed:before {
+  display: block;
+}
+
+/*# sourceMappingURL=node.decriminalizingmentalillness.css.map */
