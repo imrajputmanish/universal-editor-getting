@@ -255,12 +255,12 @@ header .navbar-dark .navbar-toggler {
 .path-decriminalizing-mental-illness-grantees .wrapper,
 .path-resilient-communities-grantees .wrapper,
 .path-disaster-philanthropy-grantees .wrapper {
-    background-image: url('../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html');
+    background-image: url('../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png');
     background-position: 0 -80px;
 }
 
 .path-contact .wrapper {
-    background-image: url('../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html');
+    background-image: url('../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png');
     background-position: 0 -85px;
 }
 
@@ -284,7 +284,7 @@ header .navbar-dark .navbar-toggler {
 
 .path-leadership-team .wrapper {
     background-position: 0px -110px, 101% 6%, 50% 65%;
-    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html),
+    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png),
     url(../../../themes/site/themes/custom/otsuka_theme/assets/images/triangle2.png),
     url(../../../themes/site/themes/custom/otsuka_theme/assets/images/triangle1.png);
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@ header .navbar-dark .navbar-toggler {
 }
 
 body.path-convenings {
-    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html);
+    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png);
     background-position: 0px -128px;
     background-repeat: no-repeat;
 }
@@ -323,7 +323,7 @@ body.path-convenings {
 .page-node-3541 .wrapper,
 .path-news-and-reports .wrapper,
 .page-node-type-page.page-node-91 .wrapper {
-    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.html);
+    background-image: url(../../../themes/site/themes/custom/otsuka_theme/assets/images/contact-banner.png);
     background-position: 0px -128px;
     background-repeat: no-repeat;
 }
