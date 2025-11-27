@@ -1,0 +1,225 @@
+a.btn.btn-theme {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px #71a2aa;
+  border-radius: 0;
+  font-size: 15px !important;
+  font-family: 'Montserrat';
+  padding: 12px 48px;
+  color: #71a2aa;
+  transition: .3s ease;
+  text-decoration: none;
+}
+
+a.btn.btn-theme:hover {
+  background: #71a2aa;
+  color: #ffffff;
+}
+
+a.btn.btn-theme:focus {
+  box-shadow: 0 0 0 0.2rem rgba(113, 162, 170, 0.25);
+}
+
+.view-sozosei-foundation-updates,
+.view-reports,
+.view-resources-for-learning-and-involvement {
+  font-size: 11pt;
+  color: #000;
+}
+
+.view-sozosei-foundation-updates ul.js-pager__items,
+.view-reports ul.js-pager__items,
+.view-resources-for-learning-and-involvement ul.js-pager__items {
+  padding: 24px 0;
+}
+
+.view-sozosei-foundation-updates ul.js-pager__items li,
+.view-reports ul.js-pager__items li,
+.view-resources-for-learning-and-involvement ul.js-pager__items li {
+  padding: 0;
+}
+
+.view-sozosei-foundation-updates ul.js-pager__items li a,
+.view-reports ul.js-pager__items li a,
+.view-resources-for-learning-and-involvement ul.js-pager__items li a {
+  display: inline-block;
+  background: #ffffff;
+  border: solid 1px #71a2aa;
+  border-radius: 0;
+  font-size: 15px !important;
+  font-family: 'Montserrat';
+  padding: 12px 48px;
+  color: #71a2aa;
+  transition: .3s ease;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.view-sozosei-foundation-updates ul.js-pager__items li a:hover,
+.view-reports ul.js-pager__items li a:hover,
+.view-resources-for-learning-and-involvement ul.js-pager__items li a:hover {
+  background: #71a2aa;
+  color: #ffffff;
+}
+
+.view-sozosei-foundation-updates ul.js-pager__items li a:focus,
+.view-reports ul.js-pager__items li a:focus,
+.view-resources-for-learning-and-involvement ul.js-pager__items li a:focus {
+  box-shadow: 0 0 0 0.2rem rgba(113, 162, 170, 0.25);
+}
+
+.view-sozosei-foundation-updates hr,
+.view-reports hr,
+.view-resources-for-learning-and-involvement hr {
+  border-color: #71a2aa;
+  margin: 42px 0;
+}
+
+.view-sozosei-foundation-updates .view-header,
+.view-reports .view-header,
+.view-resources-for-learning-and-involvement .view-header {
+  display: flow-root;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.view-sozosei-foundation-updates .view-header h3,
+.view-reports .view-header h3,
+.view-resources-for-learning-and-involvement .view-header h3 {
+  font-size: 18pt;
+  margin-bottom: 15px;
+  padding-top: 0;
+  font-weight: 700;
+  font-family: 'sora';
+  color: #000;
+}
+
+.view-sozosei-foundation-updates .views-row:not(:last-child),
+.view-reports .views-row:not(:last-child),
+.view-resources-for-learning-and-involvement .views-row:not(:last-child) {
+  margin: 75px 0;
+}
+
+.view-sozosei-foundation-updates .views-row:first-child,
+.view-reports .views-row:first-child,
+.view-resources-for-learning-and-involvement .views-row:first-child {
+  margin-top: 12px;
+}
+
+.view-sozosei-foundation-updates .views-row .row .col-8 *:not(:last-child),
+.view-reports .views-row .row .col-8 *:not(:last-child),
+.view-resources-for-learning-and-involvement .views-row .row .col-8 *:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.view-sozosei-foundation-updates .views-row .row h5,
+.view-reports .views-row .row h5,
+.view-resources-for-learning-and-involvement .views-row .row h5 {
+  font-size: 14pt;
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+
+.view-sozosei-foundation-updates .views-row .row a,
+.view-reports .views-row .row a,
+.view-resources-for-learning-and-involvement .views-row .row a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-sozosei-foundation-updates .views-row .row .short-body + a,
+.view-reports .views-row .row .short-body + a,
+.view-resources-for-learning-and-involvement .views-row .row .short-body + a {
+  color: #000000;
+}
+
+.view-sozosei-foundation-updates .views-row .row .title,
+.view-reports .views-row .row .title,
+.view-resources-for-learning-and-involvement .views-row .row .title {
+  color: #71A2AA;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.view-reports,
+.view-resources-for-learning-and-involvement {
+  display: flow-root;
+  margin: 48px 0;
+}
+
+.view-reports .views-row .row .title {
+  color: #000;
+}
+
+.view-resources-for-learning-and-involvement ul.js-pager__items li a:hover {
+  background: #446b70;
+}
+
+.view-resources-for-learning-and-involvement .views-row .row .short-body a {
+  color: #000000;
+}
+
+.path-news-and-reports #block-pagetitle h1 {
+  padding: 65px 0 0;
+  font-weight: 700;
+}
+
+.path-news-and-reports .inner-content {
+  padding: 0 15px 3%;
+}
+
+.path-news-and-reports .resource-section {
+  padding: 0;
+  display: grid;
+  overflow: hidden;
+}
+
+.path-news-and-reports .resource-section > .content.container {
+  padding: 0;
+  overflow: initial;
+}
+
+.block-views-blockreports-block-1 {
+  display: grid;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #C5D9DC;
+}
+
+@media (max-width: 575.98px) {
+  .block-views-blockreports-block-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.view-resources-for-learning-and-involvement.view-display-id-block_1 {
+  padding: 0;
+}
+
+.page-node-3577 .inner-content {
+  padding: 0;
+}
+
+.page-node-3577 .aboutOstuka h1 {
+  padding-left: 0;
+  border-bottom: 1px solid #71a2aa;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.9px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .page-node-3577 .aboutOstuka h1 {
+    font-size: 46px;
+    line-height: 72px;
+  }
+}
+
+/*# sourceMappingURL=view.sozosei-foundation-updates.css.map */

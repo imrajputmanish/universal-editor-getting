@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.sozoseifoundation.org/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="./">
   <channel>
     <title>Sozosei Foundation</title>
-    <link>https://www.sozoseifoundation.org/</link>
+    <link>./</link>
     <description/>
     <language>en</language>
     
     <item>
   <title>Crazy People Productions</title>
-  <link>https://www.sozoseifoundation.org/crazy-people-productions</link>
+  <link>./crazy-people-productions</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Crazy People Productions&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2025-07-23T06:10:08+00:00" title="Wednesday, July 23, 2025 - 06:10" class="datetime"&gt;Wed, 07/23/2025 - 06:10&lt;/time&gt;
 &lt;/span&gt;
 
@@ -25,17 +25,17 @@
 
             &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://noonecaresfilm.com/"&gt;https://noonecaresfilm.com/&lt;/a&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="./taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Wed, 23 Jul 2025 06:10:08 +0000</pubDate>
     <dc:creator>sozosei_Orchestra</dc:creator>
-    <guid isPermaLink="false">3731 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3731 at .</guid>
     </item>
 <item>
   <title>International College of Neuroethics and Neuroscience (ICONN)</title>
-  <link>https://www.sozoseifoundation.org/international-college-neuroethics-and-neuroscience-iconn</link>
+  <link>./international-college-neuroethics-and-neuroscience-iconn</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;International College of Neuroethics and Neuroscience (ICONN)&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2025-07-23T06:07:23+00:00" title="Wednesday, July 23, 2025 - 06:07" class="datetime"&gt;Wed, 07/23/2025 - 06:07&lt;/time&gt;
 &lt;/span&gt;
 
@@ -50,17 +50,17 @@
 
             &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://www.neuroethicscollege.org/"&gt;https://www.neuroethicscollege.org/&lt;/a&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="./taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Wed, 23 Jul 2025 06:07:23 +0000</pubDate>
     <dc:creator>sozosei_Orchestra</dc:creator>
-    <guid isPermaLink="false">3726 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3726 at .</guid>
     </item>
 <item>
   <title>Justice Innovation Lab Project (New Venture Fund) </title>
-  <link>https://www.sozoseifoundation.org/node/3636</link>
+  <link>./node/3636</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Justice Innovation Lab Project (New Venture Fund)&amp;nbsp;&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-07-03T14:35:59+00:00" title="Wednesday, July 3, 2024 - 14:35" class="datetime"&gt;Wed, 07/03/2024 - 14:35&lt;/time&gt;
 &lt;/span&gt;
 
@@ -75,17 +75,17 @@
 
             &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://www.justiceinnovationlab.org/"&gt;https://www.justiceinnovationlab.org/&lt;/a&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="./taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Wed, 03 Jul 2024 14:35:59 +0000</pubDate>
     <dc:creator>sozosei_Orchestra</dc:creator>
-    <guid isPermaLink="false">3636 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3636 at .</guid>
     </item>
 <item>
   <title>Greenburger Center for Social and Criminal Justice</title>
-  <link>https://www.sozoseifoundation.org/node/3631</link>
+  <link>./node/3631</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Greenburger Center for Social and Criminal Justice&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/231" typeof="schema:Person" property="schema:name" datatype&gt;sozosei_Orchestra&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-07-03T14:28:34+00:00" title="Wednesday, July 3, 2024 - 14:28" class="datetime"&gt;Wed, 07/03/2024 - 14:28&lt;/time&gt;
 &lt;/span&gt;
 
@@ -100,17 +100,17 @@
 
             &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://greenburgercenter.org/"&gt;https://greenburgercenter.org/&lt;/a&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__item"&gt;&lt;a href="./taxonomy/term/1" hreflang="en"&gt;Decriminalizing Mental Illness&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Wed, 03 Jul 2024 14:28:34 +0000</pubDate>
     <dc:creator>sozosei_Orchestra</dc:creator>
-    <guid isPermaLink="false">3631 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3631 at .</guid>
     </item>
 <item>
   <title>NY State Psychiatric Institute and Columbia University Department of Psychiatry</title>
-  <link>https://www.sozoseifoundation.org/node/3606</link>
+  <link>./node/3606</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;NY State Psychiatric Institute and Columbia University Department of Psychiatry&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2024-03-05T18:44:47+00:00" title="Tuesday, March 5, 2024 - 18:44" class="datetime"&gt;Tue, 03/05/2024 - 18:44&lt;/time&gt;
 &lt;/span&gt;
 
@@ -121,18 +121,18 @@
 
   &lt;div class="field field--name-field-external- field--type-link field--label-above"&gt;
     &lt;div class="field__label"&gt;External Link&lt;/div&gt;
-              &lt;div class="field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/media/2-pope-et-al988-case-study-report.pdf?view="&gt;/media/2-pope-et-al988-case-study-report.pdf?view=&lt;/a&gt;&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;a href="./media/2-pope-et-al988-case-study-report.pdf?view="&gt;/media/2-pope-et-al988-case-study-report.pdf?view=&lt;/a&gt;&lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Tue, 05 Mar 2024 18:44:47 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3606 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3606 at .</guid>
     </item>
 <item>
   <title>October 2023</title>
-  <link>https://www.sozoseifoundation.org/node/3571</link>
+  <link>./node/3571</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;October 2023&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2023-10-11T01:51:26+00:00" title="Wednesday, October 11, 2023 - 01:51" class="datetime"&gt;Wed, 10/11/2023 - 01:51&lt;/time&gt;
 &lt;/span&gt;
 
@@ -144,17 +144,17 @@
 
 &lt;p&gt;&lt;span&gt;To understand the Sozosei Foundation’s approach to impact, a team from the RAND Corporation interviewed grantees, representatives from partner organizations and thought leaders; reviewed scientific and grey literature; and met bi-weekly with the Foundation’s Executive Director. This document summarizes what the RAND team learned about the Foundation’s approach to impact and an evaluation strategy that aligns with this approach.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/media/sozosei-foundation-ripple-effect.pdf?view="&gt;Read More&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="./media/sozosei-foundation-ripple-effect.pdf?view="&gt;Read More&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Wed, 11 Oct 2023 01:51:26 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3571 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3571 at .</guid>
     </item>
 <item>
   <title>Arts On Perscription</title>
-  <link>https://www.sozoseifoundation.org/node/3566</link>
+  <link>./node/3566</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Arts On Perscription&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2023-09-11T22:27:15+00:00" title="Monday, September 11, 2023 - 22:27" class="datetime"&gt;Mon, 09/11/2023 - 22:27&lt;/time&gt;
 &lt;/span&gt;
 
@@ -170,13 +170,13 @@
 </description>
   <pubDate>Mon, 11 Sep 2023 22:27:15 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3566 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3566 at .</guid>
     </item>
 <item>
   <title>Mental Illness Is Not A Crime </title>
-  <link>https://www.sozoseifoundation.org/node/3536</link>
+  <link>./node/3536</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Mental Illness Is Not A Crime &lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2023-08-14T17:41:56+00:00" title="Monday, August 14, 2023 - 17:41" class="datetime"&gt;Mon, 08/14/2023 - 17:41&lt;/time&gt;
 &lt;/span&gt;
 
@@ -192,13 +192,13 @@
 </description>
   <pubDate>Mon, 14 Aug 2023 17:41:56 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3536 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3536 at .</guid>
     </item>
 <item>
   <title>July 2023</title>
-  <link>https://www.sozoseifoundation.org/node/3521</link>
+  <link>./node/3521</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;July 2023&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2023-07-21T17:20:40+00:00" title="Friday, July 21, 2023 - 17:20" class="datetime"&gt;Fri, 07/21/2023 - 17:20&lt;/time&gt;
 &lt;/span&gt;
 
@@ -208,17 +208,17 @@
       
             &lt;div class="clearfix text-formatted field field--name-field-short-description field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;The Sozosei Foundation launched its Resilient Communities Program (RCP) in the summer of 2020 at the request of Otsuka America Pharmaceutical, Inc. (OAPI), with the intent of evolving the company’s longstanding commitment to philanthropy. The goal of the program was to refine the company’s philanthropic commitment by designing guidelines and priorities to support diverse, under-resourced communities where the company has a presence. Over the two years of its grantmaking, the program provided over $1 million in grants and served over 177,000 people across six target communities.&lt;/p&gt;&lt;/div&gt;
       
-            &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="https://www.sozoseifoundation.org/media/sozosei2023-rcp-report-r7pdf.pdf?view="&gt;Read More&lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-field-link field--type-link field--label-hidden field__item"&gt;&lt;a href="./media/sozosei2023-rcp-report-r7pdf.pdf?view="&gt;Read More&lt;/a&gt;&lt;/div&gt;
       </description>
   <pubDate>Fri, 21 Jul 2023 17:20:40 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3521 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3521 at .</guid>
     </item>
 <item>
   <title>KFF - Mental Health</title>
-  <link>https://www.sozoseifoundation.org/node/3461</link>
+  <link>./node/3461</link>
   <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;KFF - Mental Health&lt;/span&gt;
-&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="https://www.sozoseifoundation.org/user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang about="./user/106" typeof="schema:Person" property="schema:name" datatype&gt;editor&lt;/span&gt;&lt;/span&gt;
 &lt;span class="field field--name-created field--type-created field--label-hidden"&gt;&lt;time datetime="2023-05-10T15:38:53+00:00" title="Wednesday, May 10, 2023 - 15:38" class="datetime"&gt;Wed, 05/10/2023 - 15:38&lt;/time&gt;
 &lt;/span&gt;
 
@@ -234,7 +234,7 @@
 </description>
   <pubDate>Wed, 10 May 2023 15:38:53 +0000</pubDate>
     <dc:creator>editor</dc:creator>
-    <guid isPermaLink="false">3461 at https://www.sozoseifoundation.org</guid>
+    <guid isPermaLink="false">3461 at .</guid>
     </item>
 
   </channel>
