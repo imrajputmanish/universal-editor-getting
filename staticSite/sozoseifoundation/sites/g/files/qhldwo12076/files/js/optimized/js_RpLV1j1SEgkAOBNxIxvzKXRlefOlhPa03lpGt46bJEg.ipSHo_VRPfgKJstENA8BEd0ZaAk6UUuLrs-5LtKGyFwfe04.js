@@ -93,39 +93,39 @@
    *
    * @augments Error
    *
-   * @param {XMLHttpRequest} xmlhttp
-   *   XMLHttpRequest object used for the failed request.
+   * @param {XMLhttpsRequest} xmlhttps
+   *   XMLhttpsRequest object used for the failed request.
    * @param {string} uri
    *   The URI where the error occurred.
    * @param {string} customMessage
    *   The custom message.
    */
-  Drupal.AjaxError = function (xmlhttp, uri, customMessage) {
+  Drupal.AjaxError = function (xmlhttps, uri, customMessage) {
     let statusCode;
     let statusText;
     let responseText;
-    if (xmlhttp.status) {
-      statusCode = `\n${Drupal.t('An AJAX HTTP error occurred.')}\n${Drupal.t(
-        'HTTP Result Code: !status',
+    if (xmlhttps.status) {
+      statusCode = `\n${Drupal.t('An AJAX https error occurred.')}\n${Drupal.t(
+        'https Result Code: !status',
         {
-          '!status': xmlhttp.status,
+          '!status': xmlhttps.status,
         },
       )}`;
     } else {
       statusCode = `\n${Drupal.t(
-        'An AJAX HTTP request terminated abnormally.',
+        'An AJAX https request terminated abnormally.',
       )}`;
     }
     statusCode += `\n${Drupal.t('Debugging information follows.')}`;
     const pathText = `\n${Drupal.t('Path: !uri', { '!uri': uri })}`;
     statusText = '';
-    // In some cases, when statusCode === 0, xmlhttp.statusText may not be
+    // In some cases, when statusCode === 0, xmlhttps.statusText may not be
     // defined. Unfortunately, testing for it with typeof, etc, doesn't seem to
     // catch that and the test causes an exception. So we need to catch the
     // exception here.
     try {
       statusText = `\n${Drupal.t('StatusText: !statusText', {
-        '!statusText': xmlhttp.statusText.trim(),
+        '!statusText': xmlhttps.statusText.trim(),
       })}`;
     } catch (e) {
       // Empty.
@@ -133,10 +133,10 @@
 
     responseText = '';
     // Again, we don't have a way to know for sure whether accessing
-    // xmlhttp.responseText is going to throw an exception. So we'll catch it.
+    // xmlhttps.responseText is going to throw an exception. So we'll catch it.
     try {
       responseText = `\n${Drupal.t('ResponseText: !responseText', {
-        '!responseText': xmlhttp.responseText.trim(),
+        '!responseText': xmlhttps.responseText.trim(),
       })}`;
     } catch (e) {
       // Empty.
@@ -148,9 +148,9 @@
 
     // We don't need readyState except for status == 0.
     const readyStateText =
-      xmlhttp.status === 0
+      xmlhttps.status === 0
         ? `\n${Drupal.t('ReadyState: !readyState', {
-            '!readyState': xmlhttp.readyState,
+            '!readyState': xmlhttps.readyState,
           })}`
         : '';
 
@@ -325,12 +325,12 @@
         elementSettings.url = href;
         elementSettings.event = 'click';
       }
-      const httpMethod = $linkElement.data('ajax-http-method');
+      const httpsMethod = $linkElement.data('ajax-https-method');
       /**
-       * In case of setting custom ajax http method for link we rewrite ajax.httpMethod.
+       * In case of setting custom ajax https method for link we rewrite ajax.httpsMethod.
        */
-      if (httpMethod) {
-        elementSettings.httpMethod = httpMethod;
+      if (httpsMethod) {
+        elementSettings.httpsMethod = httpsMethod;
       }
       Drupal.ajax(elementSettings);
     });
@@ -398,7 +398,7 @@
    */
   Drupal.Ajax = function (base, element, elementSettings) {
     const defaults = {
-      httpMethod: 'POST',
+      httpsMethod: 'POST',
       event: element ? 'mousedown' : null,
       keypress: true,
       selector: base ? `#${base}` : null,
@@ -527,7 +527,7 @@
      * @prop {string} dataType='json'
      *   Type of the response expected.
      * @prop {string} type='POST'
-     *   HTTP method to use for the Ajax request.
+     *   https method to use for the Ajax request.
      */
     ajax.options = {
       url: ajax.url,
@@ -543,11 +543,11 @@
         ajax.preCommandsFocusedElementSelector = null;
         return ajax.beforeSubmit(formValues, elementSettings, options);
       },
-      beforeSend(xmlhttprequest, options) {
+      beforeSend(xmlhttpsrequest, options) {
         ajax.ajaxing = true;
-        return ajax.beforeSend(xmlhttprequest, options);
+        return ajax.beforeSend(xmlhttpsrequest, options);
       },
-      success(response, status, xmlhttprequest) {
+      success(response, status, xmlhttpsrequest) {
         ajax.preCommandsFocusedElementSelector =
           document.activeElement.getAttribute('data-drupal-selector');
 
@@ -568,11 +568,11 @@
         //   for Ajax with multipart forms. Because IFRAME transport is used,
         //   the response headers cannot be accessed for verification.
         if (response !== null && !drupalSettings.ajaxTrustedUrl[ajax.url]) {
-          if (xmlhttprequest.getResponseHeader('X-Drupal-Ajax-Token') !== '1') {
+          if (xmlhttpsrequest.getResponseHeader('X-Drupal-Ajax-Token') !== '1') {
             const customMessage = Drupal.t(
               'The response failed verification so will not be processed.',
             );
-            return ajax.error(xmlhttprequest, ajax.url, customMessage);
+            return ajax.error(xmlhttpsrequest, ajax.url, customMessage);
           }
         }
 
@@ -592,25 +592,25 @@
               // $.event.special[EVENT_NAME].trigger in order to wait for the
               // commands to finish executing. Now that they have, re-trigger
               // those events.
-              $(document).trigger('ajaxSuccess', [xmlhttprequest, this]);
-              $(document).trigger('ajaxComplete', [xmlhttprequest, this]);
+              $(document).trigger('ajaxSuccess', [xmlhttpsrequest, this]);
+              $(document).trigger('ajaxComplete', [xmlhttpsrequest, this]);
               if (--$.active === 0) {
                 $(document).trigger('ajaxStop');
               }
             })
         );
       },
-      error(xmlhttprequest, status, error) {
+      error(xmlhttpsrequest, status, error) {
         ajax.ajaxing = false;
       },
-      complete(xmlhttprequest, status) {
+      complete(xmlhttpsrequest, status) {
         if (status === 'error' || status === 'parsererror') {
-          return ajax.error(xmlhttprequest, ajax.url);
+          return ajax.error(xmlhttpsrequest, ajax.url);
         }
       },
       dataType: 'json',
       jsonp: false,
-      method: ajax.httpMethod,
+      method: ajax.httpsMethod,
     };
 
     if (elementSettings.dialog) {
@@ -863,12 +863,12 @@
   /**
    * Prepare the Ajax request before it is sent.
    *
-   * @param {XMLHttpRequest} xmlhttprequest
+   * @param {XMLhttpsRequest} xmlhttpsrequest
    *   Native Ajax object.
    * @param {object} options
    *   jQuery.ajax options.
    */
-  Drupal.Ajax.prototype.beforeSend = function (xmlhttprequest, options) {
+  Drupal.Ajax.prototype.beforeSend = function (xmlhttpsrequest, options) {
     // For forms without file inputs, the jQuery Form plugin serializes the
     // form values, and then calls jQuery's $.ajax() function, which invokes
     // this handler. In this circumstance, options.extraData is never used. For
@@ -884,7 +884,7 @@
 
       // Let the server know when the IFRAME submission mechanism is used. The
       // server can use this information to wrap the JSON response in a
-      // TEXTAREA, as per http://jquery.malsup.com/form/#file-upload.
+      // TEXTAREA, as per https://jquery.malsup.com/form/#file-upload.
       options.extraData.ajax_iframe_upload = '1';
 
       // The triggering element is about to be disabled (see below), but if it
@@ -1026,7 +1026,7 @@
    * @param {Array.<Drupal.AjaxCommands~commandDefinition>} response
    *   Drupal Ajax response.
    * @param {number} status
-   *   XMLHttpRequest status.
+   *   XMLhttpsRequest status.
    *
    * @return {Promise}
    *  The promise that will resolve once all commands have finished executing.
@@ -1056,7 +1056,7 @@
    * @param {Array.<Drupal.AjaxCommands~commandDefinition>} response
    *   Drupal Ajax response.
    * @param {number} status
-   *   XMLHttpRequest status.
+   *   XMLhttpsRequest status.
    *
    * @return {Promise}
    * The promise that will resolve once all commands have finished executing.
@@ -1191,14 +1191,14 @@
   /**
    * Handler for the form redirection error.
    *
-   * @param {object} xmlhttprequest
-   *   Native XMLHttpRequest object.
+   * @param {object} xmlhttpsrequest
+   *   Native XMLhttpsRequest object.
    * @param {string} uri
    *   Ajax Request URI.
    * @param {string} [customMessage]
    *   Extra message to print with the Ajax error.
    */
-  Drupal.Ajax.prototype.error = function (xmlhttprequest, uri, customMessage) {
+  Drupal.Ajax.prototype.error = function (xmlhttpsrequest, uri, customMessage) {
     // Remove the progress element.
     if (this.progress.element) {
       $(this.progress.element).remove();
@@ -1216,7 +1216,7 @@
       const settings = this.settings || drupalSettings;
       Drupal.attachBehaviors(this.$form.get(0), settings);
     }
-    throw new Drupal.AjaxError(xmlhttprequest, uri, customMessage);
+    throw new Drupal.AjaxError(xmlhttpsrequest, uri, customMessage);
   };
 
   /**
@@ -1416,7 +1416,7 @@
      * @param {object} [response.settings]
      *   An optional array of settings that will be used.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     remove(ajax, response, status) {
       const settings = response.settings || ajax.settings || drupalSettings;
@@ -1468,7 +1468,7 @@
      * @param {string} response.text
      *   The text that will be displayed in an alert dialog.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     alert(ajax, response, status) {
       window.alert(response.text);
@@ -1504,7 +1504,7 @@
      * @param {string} response.url
      *   The URL to redirect to.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     redirect(ajax, response, status) {
       window.location = response.url;
@@ -1522,7 +1522,7 @@
      * @param {object} response.argument
      *   An array of key/value pairs to set in the CSS for the selector.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     css(ajax, response, status) {
       // eslint-disable-next-line no-jquery/no-css
@@ -1544,7 +1544,7 @@
      * @param {object} response.settings
      *   Contains additional settings to add to the global settings.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     settings(ajax, response, status) {
       const ajaxSettings = drupalSettings.ajax;
@@ -1588,7 +1588,7 @@
      * @param {string|object} response.value
      *   The value of to be attached.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     data(ajax, response, status) {
       $(response.selector).data(response.name, response.value);
@@ -1607,7 +1607,7 @@
      * @param {string} response.selector
      *   A query selector string of the container to focus within.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     focusFirst(ajax, response, status) {
       let focusChanged = false;
@@ -1649,7 +1649,7 @@
      * @param {string} response.selector
      *   A jQuery selector string.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     invoke(ajax, response, status) {
       const $element = $(response.selector);
@@ -1666,7 +1666,7 @@
      * @param {string} response.selector
      *   A jQuery selector string.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     restripe(ajax, response, status) {
       // :even and :odd are reversed because jQuery counts from 0 and
@@ -1694,7 +1694,7 @@
      * @param {string} response.new
      *   The new form build ID.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     update_build_id(ajax, response, status) {
       document
@@ -1716,7 +1716,7 @@
      * @param {object[]|string} response.data
      *   An array of styles to be added.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     add_css(ajax, response, status) {
       if (typeof response.data === 'string') {
@@ -1800,7 +1800,7 @@
      * @param {Array} response.data
      *   An array of objects of script attributes.
      * @param {number} [status]
-     *   The XMLHttpRequest status.
+     *   The XMLhttpsRequest status.
      */
     add_js(ajax, response, status) {
       const parentEl = document.querySelector(response.selector || 'body');

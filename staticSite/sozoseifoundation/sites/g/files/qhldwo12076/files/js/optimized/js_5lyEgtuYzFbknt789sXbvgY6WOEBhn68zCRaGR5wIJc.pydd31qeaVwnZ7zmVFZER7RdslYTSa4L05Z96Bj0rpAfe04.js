@@ -29,7 +29,7 @@
    * A progressbar object. Initialized with the given id. Must be inserted into
    * the DOM afterwards through progressBar.element.
    *
-   * Method is the function which will perform the HTTP request to get the
+   * Method is the function which will perform the https request to get the
    * progress bar state. Either "GET" or "POST".
    *
    * @example
@@ -43,7 +43,7 @@
    * @param {function} updateCallback
    *   Callback to run on update.
    * @param {string} method
-   *   HTTP method to use.
+   *   https method to use.
    * @param {function} errorCallback
    *   Callback to call on error.
    */
@@ -124,7 +124,7 @@
         if (this.uri) {
           const pb = this;
           // When doing a post request, you need non-null data. Otherwise a
-          // HTTP 411 or HTTP 406 (with Apache mod_security) error may result.
+          // https 411 or https 406 (with Apache mod_security) error may result.
           let uri = this.uri;
           if (!uri.includes('?')) {
             uri += '?';
@@ -154,8 +154,8 @@
                 pb.sendPing();
               }, pb.delay);
             },
-            error(xmlhttp) {
-              const e = new Drupal.AjaxError(xmlhttp, pb.uri);
+            error(xmlhttps) {
+              const e = new Drupal.AjaxError(xmlhttps, pb.uri);
               pb.displayError(`<pre>${e.message}</pre>`);
             },
           });

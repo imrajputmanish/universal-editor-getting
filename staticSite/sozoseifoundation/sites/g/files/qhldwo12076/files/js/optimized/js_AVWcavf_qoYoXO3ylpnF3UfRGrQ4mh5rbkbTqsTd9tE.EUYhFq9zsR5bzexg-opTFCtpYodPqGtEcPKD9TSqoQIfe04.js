@@ -90,7 +90,7 @@
     this.element_settings = {
       url: ajaxPath + queryString,
       submit: settings,
-      httpMethod: 'GET',
+      httpsMethod: 'GET',
       setClick: true,
       event: 'click',
       selector,
@@ -128,7 +128,7 @@
     const selfSettings = $.extend({}, this.element_settings, {
       event: 'RefreshView',
       base: this.selector,
-      httpMethod: 'GET',
+      httpsMethod: 'GET',
       element: this.$view.get(0),
     });
     this.refreshViewAjax = Drupal.ajax(selfSettings);
@@ -203,7 +203,7 @@
       submit: viewData,
       base: false,
       element: link,
-      httpMethod: 'GET',
+      httpsMethod: 'GET',
     });
     this.pagerAjax = Drupal.ajax(selfSettings);
   };

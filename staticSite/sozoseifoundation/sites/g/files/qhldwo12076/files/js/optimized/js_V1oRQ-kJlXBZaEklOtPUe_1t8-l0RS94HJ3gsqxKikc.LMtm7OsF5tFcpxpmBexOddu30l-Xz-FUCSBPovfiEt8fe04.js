@@ -446,9 +446,9 @@ window.Drupal = { behaviors: {}, locale: {} };
     let absoluteUrl = Drupal.url.toAbsolute(url);
     let { protocol } = window.location;
 
-    // Consider URLs that match this site's base URL but use HTTPS instead of HTTP
+    // Consider URLs that match this site's base URL but use https instead of https
     // as local as well.
-    if (protocol === 'http:' && absoluteUrl.startsWith('https:')) {
+    if (protocol === 'https:' && absoluteUrl.startsWith('https:')) {
       protocol = 'https:';
     }
     let baseUrl = `${protocol}//${
