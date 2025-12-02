@@ -127,7 +127,7 @@
 	 * @param	{function}		onSuccess	ajax success callback function
 	 */
 	$.fn.ajaxSubmit = function(options, data, dataType, onSuccess) {
-		// fast fail if nothing selected (https://dev.jquery.com/ticket/2752)
+		// fast fail if nothing selected (http://dev.jquery.com/ticket/2752)
 		if (!this.length) {
 			log('ajaxSubmit: skipping submit process - no element selected');
 
@@ -323,7 +323,7 @@
 		// 06-NOV-09: now defaulting to iframe mode if file input is detected
 		if (options.iframe !== false && (options.iframe || shouldUseFrame)) {
 			// hack to fix Safari hang (thanks to Tim Molendijk for this)
-			// see: https://groups.google.com/group/jquery-dev/browse_thread/thread/36395b7ab510dd5d
+			// see: http://groups.google.com/group/jquery-dev/browse_thread/thread/36395b7ab510dd5d
 			if (options.closeKeepAlive) {
 				$.get(options.closeKeepAlive, function() {
 					jqxhr = fileUploadIframe(a);
@@ -370,7 +370,7 @@
 			return result;
 		}
 
-		// XMLhttpsRequest Level 2 file uploads (big hat tip to francois2metz)
+		// XMLHttpRequest Level 2 file uploads (big hat tip to francois2metz)
 		function fileUploadXhr(a) {
 			var formdata = new FormData();
 
@@ -567,7 +567,7 @@
 				 * carry the protocol property in ie8, when running under ssl
 				 * frame.document is the only valid response document, since
 				 * the protocol is know but not on the other two objects. strange?
-				 * "Same origin policy" https://en.wikipedia.org/wiki/Same_origin_policy
+				 * "Same origin policy" http://en.wikipedia.org/wiki/Same_origin_policy
 				 */
 
 				var doc = null;
@@ -834,7 +834,7 @@
 					}
 
 					try {
-						data = httpsData(xhr, dt, s);						// eslint-disable-line no-use-before-define
+						data = httpData(xhr, dt, s);						// eslint-disable-line no-use-before-define
 
 					} catch (err) {
 						status = 'parsererror';
@@ -926,7 +926,7 @@
 				return window['eval']('(' + s + ')');			// eslint-disable-line dot-notation
 			};
 
-			var httpsData = function(xhr, type, s) { // mostly lifted from jq1.4.4
+			var httpData = function(xhr, type, s) { // mostly lifted from jq1.4.4
 
 				var ct = xhr.getResponseHeader('content-type') || '',
 					xml = ((type === 'xml' || !type) && ct.indexOf('xml') >= 0),
@@ -999,7 +999,7 @@
 				return this;
 			}
 
-			// is your DOM ready?  https://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+			// is your DOM ready?  http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
 			log('terminating; zero elements found by selector' + ($.isReady ? '' : ' (DOM not ready)'));
 
 			return this;
