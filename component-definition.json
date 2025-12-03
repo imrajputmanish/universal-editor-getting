@@ -166,24 +166,9 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Quote",
-                  "filter": "quote"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Quote",
-          "id": "quote",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Quote",
                   "model": "quote",
-                  "quote": "<p>Think manish chauhan, McFly! Think!</p>",
-                  "author": "Biff Tannen"
+                  "quote": "<p>Quote Component</p>",
+                  "author": "Amit"
                 }
               }
             }
