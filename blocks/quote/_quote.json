@@ -25,7 +25,7 @@
             "template": {
               "name": "Quote",
               "model": "quote",
-              "quote": "<p>Think manish, McFly! Think!</p>",
+              "quote": "<p>Think manish chauhan, McFly! Think!</p>",
               "author": "Biff Tannen"
             }
           }
