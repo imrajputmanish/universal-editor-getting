@@ -169,11 +169,7 @@
                   "model": "link",
                   "text": "Link Text",
                   "class": "icon-lightblue",
-                  "url": "#",
-                  "icon": {
-                    "name": "arrow",
-                    "class": "icon-lightblue"
-                  }
+                  "url": "#"
                 }
               }
             }
