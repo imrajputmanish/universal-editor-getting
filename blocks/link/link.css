@@ -1,10 +1,13 @@
-.link {
-    color: #d4dd26; /* Set the icon color to light blue */
+#link {
+    color: #ffffff; /* start white */
+    transition: color 250ms ease;
 }
-.link:hover {
-    color: #d4dd26; /* Set the icon color to light blue */
+#link svg {
+    fill: currentColor;
+    transition: fill 250ms ease;
 }
-.link:hover,
-.link a:hover {
-    color: #FFFF00; /* Yellow on hover */
+#link:hover,
+#link:hover a,
+#link a:hover {
+    color: #ADD8E6; /* light blue on hover */
 }
