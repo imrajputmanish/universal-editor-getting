@@ -12,7 +12,10 @@
                             "model": "link",
                             "text": "Link Text",
                             "url": "#",
-                            "icon": "arrow"
+                            "icon": {
+                                "name": "arrow",
+                                "class": "icon-lightblue"
+                            }
                         }
                     }
                 }
@@ -23,25 +26,12 @@
         {
             "id": "link",
             "fields": [
-                {
-                    "component": "text",
-                    "name": "text",
-                    "value": "",
-                    "label": "Link Text",
-                    "valueType": "string"
-                },
+                
                 {
                     "component": "text",
                     "name": "url",
                     "value": "",
                     "label": "URL",
-                    "valueType": "string"
-                },
-                {
-                    "component": "text",
-                    "name": "icon",
-                    "value": "",
-                    "label": "Icon",
                     "valueType": "string"
                 }
             ]

@@ -71,10 +71,6 @@
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
                   "model": "section"
-                },
-                "assetSelection": {
-                  "type": "asset",
-                  "source": "dom/aem"
                 }
               }
             }
@@ -173,7 +169,10 @@
                   "model": "link",
                   "text": "Link Text",
                   "url": "#",
-                  "icon": "arrow"
+                  "icon": {
+                    "name": "arrow",
+                    "class": "icon-lightblue"
+                  }
                 }
               }
             }
