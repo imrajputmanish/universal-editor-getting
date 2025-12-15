@@ -1,3 +1,10 @@
-.icon-lightblue {
+.link {
     color: #d4dd26; /* Set the icon color to light blue */
+}
+.link:hover {
+    color: #d4dd26; /* Set the icon color to light blue */
+}
+.link:hover,
+.link a:hover {
+    color: #FFFF00; /* Yellow on hover */
 }
