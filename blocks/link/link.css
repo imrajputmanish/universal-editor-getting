@@ -1,14 +1,54 @@
-.link-text {
-  display: inline-block;     /* ensures horizontal text */
-  white-space: nowrap;       /* prevents vertical stacking */
-  text-decoration: none;
+/* =========================
+   TEXT LINKS (NO UNDERLINE)
+   ========================= */
+.link-text,
+.link-text:hover,
+.link-text:focus,
+.link-text:active {
+  text-decoration: none !important;   /* 🔥 KILL underline */
+  border-bottom: none !important;
+  outline: none;
 
-  color: #ffffff;            /* default white */
+  color: #ffffff;
   font-weight: 600;
-  letter-spacing: 1px;
   transition: color 0.3s ease;
 }
 
 .link-text:hover {
-  color: #6ecbff;            /* light blue on hover */
+  color: #6ecbff;
+}
+
+/* =========================
+   SOCIAL ICON LINKS
+   ========================= */
+.social-menu__icon,
+.social-menu__icon:hover,
+.social-menu__icon:focus,
+.social-menu__icon:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none;
+}
+
+.social-menu__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 18px;
+  height: 18px;
+
+  color: #ffffff;
+  transition: color 0.4s ease-out;
+}
+
+.social-menu__icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  display: block;
+}
+
+.social-menu__icon:hover {
+  color: #6ecbff;
 }
