@@ -1,6 +1,10 @@
 export default function decorate(block) {
-  const url = block.textContent.trim();
+  // Read URL safely (fix UE vertical text issue)
+  const url = block.textContent.replace(/\s+/g, '').trim();
   if (!url) return;
+
+  // Clear UE generated markup
+  block.innerHTML = '';
 
   let label = 'LINK';
 
@@ -8,18 +12,12 @@ export default function decorate(block) {
     const parsedUrl = new URL(url, window.location.origin);
     let path = parsedUrl.pathname;
 
-    // remove trailing slash
-    if (path.endsWith('/')) {
-      path = path.slice(0, -1);
-    }
-
-    // get last segment
-    const segments = path.split('/').filter(Boolean);
-    const lastSegment = segments.length ? segments[segments.length - 1] : '';
-
-    if (!lastSegment) {
+    if (path === '/' || path === '') {
       label = 'HOME';
     } else {
+      const segments = path.split('/').filter(Boolean);
+      const lastSegment = segments[segments.length - 1];
+
       label = lastSegment
         .replace(/[-_]/g, ' ')
         .toUpperCase();
@@ -28,9 +26,16 @@ export default function decorate(block) {
     label = 'LINK';
   }
 
-  block.innerHTML = `
-    <a href="${url}" target="_blank" rel="noopener noreferrer" class="link-icon">
-      <span class="icon">${label}</span>
-    </a>
-  `;
+  const a = document.createElement('a');
+  a.href = url;
+  a.className = 'link-text';
+  a.textContent = label;
+
+  // External links → new tab
+  if (!url.startsWith('/')) {
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+  }
+
+  block.appendChild(a);
 }
