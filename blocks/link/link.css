@@ -1,13 +1,14 @@
-#link {
-    color: #ffffff; /* start white */
-    transition: color 250ms ease;
+.link-icon {
+  text-decoration: none;
 }
-#link svg {
-    fill: currentColor;
-    transition: fill 250ms ease;
+
+.link-icon .icon {
+  color: #ffffff;        /* default white */
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
 }
-#link:hover,
-#link:hover a,
-#link a:hover {
-    color: #ADD8E6; /* light blue on hover */
+
+.link-icon:hover .icon {
+  color: #6ecbff;        /* light blue */
 }

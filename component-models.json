@@ -221,7 +221,6 @@
       {
         "component": "text",
         "name": "url",
-        "value": "",
         "label": "URL",
         "valueType": "string"
       }
