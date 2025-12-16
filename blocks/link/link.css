@@ -5,7 +5,7 @@
 .link-text:hover,
 .link-text:focus,
 .link-text:active {
-  text-decoration: none !important;   /* 🔥 KILL underline */
+  text-decoration: none !important;
   border-bottom: none !important;
   outline: none;
 
@@ -38,10 +38,11 @@
   width: 18px;
   height: 18px;
 
-  color: #ffffff;
+  color: #ffffff; /* ICON COLOR */
   transition: color 0.4s ease-out;
 }
 
+/* INLINE SVG */
 .social-menu__icon svg {
   width: 18px;
   height: 18px;
@@ -49,6 +50,7 @@
   display: block;
 }
 
+/* Hover */
 .social-menu__icon:hover {
   color: #6ecbff;
 }

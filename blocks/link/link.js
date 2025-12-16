@@ -7,7 +7,7 @@ export default async function decorate(block) {
   let iconName = '';
   let label = '';
 
-  // Helper: Title Case
+  // Helper: Title Case for normal links
   const toTitleCase = (str) =>
     str
       .toLowerCase()
@@ -21,7 +21,7 @@ export default async function decorate(block) {
     const path = parsedUrl.pathname;
 
     /* =========================
-       1️⃣ SOCIAL / MAIL (FIRST)
+       SOCIAL / MAIL (FIRST)
        ========================= */
     if (hostname.includes('instagram.com')) {
       iconName = 'instagram';
@@ -44,7 +44,7 @@ export default async function decorate(block) {
     }
 
     /* =========================
-       2️⃣ NORMAL LINKS (TEXT)
+       NORMAL LINKS (TEXT)
        ========================= */
     else {
       if (path === '/' || path === '') {
@@ -60,7 +60,6 @@ export default async function decorate(block) {
     label = 'Link';
   }
 
-  // Create anchor
   const a = document.createElement('a');
   a.href = url;
   a.className = iconName ? 'social-menu__icon' : 'link-text';
@@ -71,13 +70,15 @@ export default async function decorate(block) {
     a.rel = 'noopener noreferrer';
   }
 
-  // ICON ONLY
+  /* =========================
+     RENDER
+     ========================= */
   if (iconName) {
-    const res = await fetch(`/icons/${iconName}.svg`);
-    a.innerHTML = await res.text();
-  }
-  // TEXT ONLY
-  else {
+    // UE + Localhost SAFE absolute path
+    const iconUrl = `${window.location.origin}/icons/${iconName}.svg`;
+    const res = await fetch(iconUrl);
+    a.innerHTML = await res.text(); // INLINE SVG
+  } else {
     a.textContent = label;
   }
 
